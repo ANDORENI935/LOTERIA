@@ -51,10 +51,11 @@
                 if (cont == 53) { }
                 else {
                     cont = cont + 1;
-                }
-                document.getElementById("img").src ="CARTASFRAN/"+ `${baraja[cont]}.JPG`;
+                    document.getElementById("img").src ="CARTASFRAN/"+ `${baraja[cont]}.JPG`;
                 audio.src ="AUDIOSFRAN/"+ `${baraja[cont]}.m4a`;
                 audio.play()
+                }
+                
 
             }
 
@@ -63,11 +64,12 @@
 
                 } else {
                     cont = cont - 1;
-                }
-
-                document.getElementById("img").src ="CARTASFRAN/"+ `${baraja[cont]}.JPG`;
+                    document.getElementById("img").src ="CARTASFRAN/"+ `${baraja[cont]}.JPG`;
                 audio.src ="AUDIOSFRAN/"+ `${baraja[cont]}.m4a`;
                 audio.play()
+                }
+
+              
             }
 
             function iniciar() {
